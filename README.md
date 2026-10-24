@@ -44,8 +44,8 @@ Sincronizza, fa backup, crea, sostituisce e gestisce le tue repository con pochi
 ## Installazione
 
 ```bash
-git clone <url-di-questa-repo>
-cd gh-autopilot
+git clone https://github.com/Err0r-ICA/Autogit
+cd Autogit
 pip install -r requirements.txt
 ```
 
@@ -71,9 +71,9 @@ Ordine di ricerca del token:
 ## Uso
 
 ```bash
-python gh_autopilot.py              # modalità interattiva
-python gh_autopilot.py --sync       # sync intelligente non interattivo (adatto a cron)
-python gh_autopilot.py --sync --full  # controlla tutte le repo, non solo quelle con novità
+python git.py              # modalità interattiva
+python git.py --sync       # sync intelligente non interattivo (adatto a cron)
+python git.py --sync --full  # controlla tutte le repo, non solo quelle con novità
 ```
 
 In modalità interattiva premi **invio** per il sync intelligente, scegli un numero del menu oppure scrivi a parole cosa vuoi fare.
