@@ -1,0 +1,2 @@
+# Autogit
+Github automatizer
